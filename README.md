@@ -4,7 +4,7 @@ Analytic tools.
 Ada Packages:
 
 
-Error Range
+📏 Error Range
 ___________
   Definition of Numeric type with Error Range.
   Allows operations with Numbers with uncertainty.
