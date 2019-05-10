@@ -2,7 +2,7 @@ with Ada.Integer_Text_IO;
 with Ada.Text_IO;
 
 
-package body Ranges is
+package body Integers_Intervals is
 
   function Max(N,M: Integer) return Integer is
   begin
@@ -89,4 +89,4 @@ package body Ranges is
       Put(N); New_Line;
     end Put_Line;
 
-end Ranges;
+end Integers_Intervals;
