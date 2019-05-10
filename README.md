@@ -30,6 +30,7 @@ ___________
               
               
   Operations:   +   -   *   /  and or  Put()   Put_Line()
+  
     📝 Note: The "and" operator can return an inverted range with the void area if both intervals have no intersection. This has been chosen to remain as it's on a different level of abstraction where this "loses" sense.
       Same way, OR can include intervals of the void area contained in between intervals.
       Therefor AND and Or are not equivalent to Intersection nor Union of Interval Sets.
