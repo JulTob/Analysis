@@ -1,8 +1,8 @@
 package Integers_Intervals is
 
 type Interval is record
-  Bot : Integer;
-  Top : Integer;
+  From : Integer;
+  To : Integer;
 end record;
 
 function "+"(Left, Right : Interval)  return Interval;
