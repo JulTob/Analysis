@@ -3,7 +3,6 @@ with Ada.Text_IO;
 
 
 package body Integers_Intervals is
-
   function Max(N,M: Integer) return Integer is
   begin
     if M>N then return  M;
@@ -77,9 +76,9 @@ package body Integers_Intervals is
       use Ada.Text_IO;
     begin
       Put("<");
-      Put(N.To,1);
-      Put("~");
       Put(N.From,1);
+      Put("~");
+      Put(N.To,1);
       Put(">");
   end Put;
 
@@ -88,6 +87,7 @@ package body Integers_Intervals is
     begin
       Put(N); New_Line;
     end Put_Line;
+
 
 
 end Integers_Intervals;
