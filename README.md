@@ -16,4 +16,17 @@ ___________
               
               
   Operations:   +   -   *   /   Put()   Put_Line()
+ 
 
+🤙 Integer Intervals
+___________
+  Definition of Intervals of the type Integer.
+  
+  Allows operations with Numbers in a range from-to style.
+  
+    Number =  <From~To> 
+    
+              [From,To]
+              
+              
+  Operations:   +   -   *   /  and or  Put()   Put_Line()
