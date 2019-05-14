@@ -1,11 +1,9 @@
 --gnatmake test.adb && test
 with Ada.Text_IO;
 with Ranges;
-with JSON;
 
 procedure Test is
   use Ranges;
-  use JSON;
 
   N : Interval := (From => 10, To => 100);
   M : Interval := (From => 1, To => 10);
