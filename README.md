@@ -37,3 +37,12 @@ ___________
     Therefor AND and OR are not equivalent to Intersection nor Union of Interval Sets.
         But they can be constructed from the Interval objects and operations.
           That's why they were considered fundamental tenough to stay this way.
+          
+          
+ 📊 Bayesian
+___________
+  Bayesian Operations with probability type, and suptypes for Hypothesis and Evidence. Also handy type Ratio, so far a rename of Float.
+  Allows operations on Bayesian Satistics.             
+              
+  Operations:  Put()   Put_Line()   To_Ratio(N1,N2)   Bayesian.Theorem(H,E,E|H)  Actualize_Hypothesis(H,E, E|H)
+      total_Evidence(E|H, E|¬H, H)    Likelyhood(E|H, E|¬H, H)
