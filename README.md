@@ -42,6 +42,7 @@ ___________
  📊 Bayesian
 ___________
   Bayesian Operations with probability type, and suptypes for Hypothesis and Evidence. Also handy type Ratio, so far a rename of Float.
+  
   Allows operations on Bayesian Satistics.             
               
   Operations:  Put()   Put_Line()   To_Ratio(N1,N2)   Bayesian.Theorem(H,E,E|H)  Actualize_Hypothesis(H,E, E|H)
