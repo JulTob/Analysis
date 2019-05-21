@@ -47,3 +47,15 @@ ___________
               
   Operations:  Put()   Put_Line()   To_Ratio(N1,N2)   Bayesian.Theorem(H,E,E|H)  Actualize_Hypothesis(H,E, E|H)
       total_Evidence(E|H, E|¬H, H)    Likelyhood(E|H, E|¬H, H)
+      
+  
+  
+  
+  
+   ➕ Series
+___________
+ So far is more an example of interface than anything else.
+ Calculates the series sum from any positive number to another positive number. Default is 1 to input.
+ Also functionalities for even and odd
+              
+  Operations:  Sum_Interface   Sum(from, to)   Sum(n)   is_Odd(n)  is_Even(n) 
