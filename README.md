@@ -59,3 +59,11 @@ ___________
  Also functionalities for even and odd
               
   Operations:  Sum_Interface   Sum(from, to)   Sum(n)   is_Odd(n)  is_Even(n) 
+  
+  
+    ⌀ Angles
+ ____________
+ Hard definition of pi and Tau
+ Radians and 360º degrees.
+
+  Operations:  +   To_Radian(Degree)   To_Degree(radian)     Put()   
