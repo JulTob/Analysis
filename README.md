@@ -4,7 +4,7 @@ Analytic tools.
 Ada Packages:
 
 
-📏 #Error Range
+📏 Error Range
 ___________
   Definition of Numeric type with Error Range.
   
@@ -18,7 +18,7 @@ ___________
   Operations:   +   -   *   /   Put()   Put_Line()
  
 
-🤙 #Integer Intervals
+🤙 Integer Intervals
 ___________
   Definition of Intervals of the type Integer.
   
@@ -39,7 +39,7 @@ ___________
           That's why they were considered fundamental tenough to stay this way.
           
           
- 📊 #Bayesian
+ 📊 Bayesian
 ___________
   Bayesian Operations with probability type, and suptypes for Hypothesis and Evidence. Also handy type Ratio, so far a rename of Float.
   
@@ -60,10 +60,22 @@ ___________
               
   Operations:  Sum_Interface   Sum(from, to)   Sum(n)   is_Odd(n)  is_Even(n) 
   
+ 
   
-    ⌀ #Angles
+  
+    ⌀ Angles
  ____________
  Hard definition of pi and Tau
  Radians and 360º degrees.
 
   Operations:  +   To_Radian(Degree)   To_Degree(radian)     Put()   
+  
+  
+  
+  
+    ☯  Fuzzy Logic
+    _______________
+    Fuzzy Boolean
+    
+    Operations:   and     or    not
+  
