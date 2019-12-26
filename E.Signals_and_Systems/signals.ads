@@ -18,8 +18,8 @@ package Signals is
 
 
   function delta_signal 
-    (from: integer := -1; to: Integer := 1; center_at: Integer := 0)
-    return Signal ;
+      (from: integer := -1; to: Integer := 1; center_at: Integer := 0)
+      return Signal ;
   function step
       (from: integer := -1; to: Integer := 1; center_at: Integer := 0)
       return Signal ;
