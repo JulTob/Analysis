@@ -1,7 +1,8 @@
 package Signals is
   type value is delta 0.1**(3) range -12.0..12.0;
   type signal is array( integer range <>) of value;
-  --sample_frequency
+  --sample_frequency?
+  
   procedure Put(S: Signal);
   function "+"(S1: Signal; S2: Signal) return Signal;
   function "-"(S1: Signal; S2: Signal) return Signal;
