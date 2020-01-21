@@ -29,7 +29,8 @@ package body Channel is
 
    -- Corrupts bits in Data at rate given by Bit_Error_Rate.
    procedure 
-   Transceive(Data : IN OUT Octet) is
+   Transceive
+      (Data : in out Octet) is
       fliped  : Float range 0.0..1.0;
       Masks : array(0..7) of Octet :=
         ( 2#00_00_00_01#, 2#00_00_00_10#, 2#00_00_01_00#, 2#00_00_10_00#, 
