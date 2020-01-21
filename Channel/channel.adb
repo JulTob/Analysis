@@ -30,14 +30,14 @@ package body Channel is
    -- Corrupts bits in Data at rate given by Bit_Error_Rate.
    procedure 
    Transceive(Data : IN OUT Octet) is
-      Dice  : Float;
+      fliped  : Float range 0.0..1.0;
       Masks : array(0..7) of Octet :=
         ( 2#00_00_00_01#, 2#00_00_00_10#, 2#00_00_01_00#, 2#00_00_10_00#, 
           2#00_01_00_00#, 2#00_10_00_00#, 2#01_00_00_00#, 2#10_00_00_00#);
    begin
       for I in 0..7 loop
-         Dice := Ada.Numerics.Float_Random.Random(Gen);
-         if Dice >= 0.5 and Dice < 0.5 + Bit_Error_Rate then
+         Fliped := Ada.Numerics.Float_Random.Random(Gen);
+         if fliped < Bit_Error_Rate then
             Data := Data xor Masks(I);
          end if;
       end loop;
