@@ -1,0 +1,31 @@
+n = 3 n   + 1
+
+ 3n+1
+3(p+1)+1
+3p+4 = p’inputFile = open (‘myfile.txt’, 'r')
+
+outputFile = open (‘myoutputfile.txt’, 'w')
+
+ 
+
+msg = inputFile.read(10)
+
+ 
+
+while len(msg):
+
+    outputFile.write(msg)
+
+    msg = inputFile.read(10)    
+
+    
+
+inputFile.close()
+
+outputFile.close()
+
+p= 2mr
+
+3*2mr+22 = 2pr2
+
+3r*2m-2 +1 = 2p-2r2
