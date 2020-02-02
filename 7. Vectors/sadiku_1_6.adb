@@ -25,8 +25,10 @@
 		B : Vector := (1,3,4);
   	C : Vector := (-5,-3,-3);
   begin
-	  if check_rectangularity(A,B,C) then
-			puy_line("It is a triangle");
-		end if;
-		Area := Cross(A,B) /2;
-  end sadiku_1_6;
+	if check_rectangularity(A,B,C) then
+		puy_line("It is a triangle");
+	end if;
+	Area := Cross(A,B) /2;
+	--  10.5
+
+end sadiku_1_6;
